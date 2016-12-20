@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FLib_Example' do
+  pod 'FLib', :path => '../'
+
+  target 'FLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
