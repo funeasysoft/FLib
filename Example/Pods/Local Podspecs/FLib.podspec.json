@@ -1,9 +1,9 @@
 {
   "name": "FLib",
   "version": "0.1.0",
-  "summary": "A short description of FLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/FLib",
+  "summary": "This is cocoapods test lib",
+  "description": "Extention , Class and UI Class test",
+  "homepage": "https://github.com/funeasysoft/FLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "funeasy soft": "funeasysoft@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/FLib.git",
+    "git": "https://github.com/funeasysoft/FLib.git",
     "tag": "0.1.0"
   },
   "platforms": {

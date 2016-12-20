@@ -4,6 +4,10 @@ public extension String
     {
         print("hoge")
     }
+    
+    func huga (){
+        print("huga")
+    }
 }
 
 public class BlinkingLabel : UILabel {

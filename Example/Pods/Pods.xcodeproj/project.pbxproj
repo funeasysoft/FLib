@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A872B17ABCFF5052A55664C2C108546 /* FLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CB8C72DF54874A10DA0223AF04335 /* FLib.swift */; };
 		250BBB99C5672CD2076C516C42D7D25B /* Pods-FLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 976B4E78292BA0CA9B0E953DC917D54F /* Pods-FLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67688061720B5B859E3A74250F19861F /* Pods-FLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 640820CE22A6CF4708A87BD836399FDC /* Pods-FLib_Example-dummy.m */; };
-		8E29CC44A53B83D725476D6E44CBE6BA /* FLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 234BD8820B148E4662CB7ADD34F18AEA /* FLib-dummy.m */; };
 		90CAA9D4B6B1357149AFA1E0CB1E607F /* FLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6523365A1DFC4FD048F0CEEC903CB8D2 /* FLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9760BF2A90215EE594910400AC5F3AE1 /* FLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E0734EFD204283A677ED20C40DD544 /* FLib.swift */; };
 		98792FAE60764783C44F7F2467EB939C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		9E475C1C2487672C987C160BC55A7E92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C0BC0E9DD09F16DE1564A55EEEEC4D4F /* FLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 234BD8820B148E4662CB7ADD34F18AEA /* FLib-dummy.m */; };
 		D607187E0A7E7284450C1AD53BEDD119 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		E7CF48A7129A4439C1B8AE96A16D1131 /* Pods-FLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EC139382C471D3311408656B51F7E /* Pods-FLib_Tests-dummy.m */; };
 		EEEFAB62A207063AB2C244F5865683C8 /* Pods-FLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17AF925CEBEF5D8087EF29C48913A93C /* Pods-FLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,32 +35,32 @@
 		17BEF81DE4A0F054C5F52F784D51FA2D /* Pods-FLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		234BD8820B148E4662CB7ADD34F18AEA /* FLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLib-dummy.m"; sourceTree = "<group>"; };
 		2731B57FEA3A2B5EC305A25392EE09CC /* Pods-FLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2E3FA93EDBBDEA34760268C3A8B2231F /* Pods-FLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FLib_Tests.modulemap"; sourceTree = "<group>"; };
+		2E3FA93EDBBDEA34760268C3A8B2231F /* Pods-FLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FLib_Tests.modulemap"; sourceTree = "<group>"; };
 		3BDAFDE13F21E40610F85BB7E5D4F721 /* Pods-FLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		453DB5FF5D1793F3EB70CC884DA2515C /* Pods-FLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5291DF80625BC8F9184A5FE65F95AA23 /* Pods-FLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		54861C7CA2BC61611C2DC6401D58D874 /* Pods_FLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54861C7CA2BC61611C2DC6401D58D874 /* Pods_FLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLib_Tests.framework; path = "Pods-FLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		576522DCBFE62CD9B3885D10F9D5E47F /* Pods-FLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLib_Example-resources.sh"; sourceTree = "<group>"; };
 		640820CE22A6CF4708A87BD836399FDC /* Pods-FLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLib_Example-dummy.m"; sourceTree = "<group>"; };
 		6523365A1DFC4FD048F0CEEC903CB8D2 /* FLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLib-umbrella.h"; sourceTree = "<group>"; };
-		6AC98BE0D127DE07E2E50C19DB9B4602 /* Pods-FLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FLib_Example.modulemap"; sourceTree = "<group>"; };
+		6AC98BE0D127DE07E2E50C19DB9B4602 /* Pods-FLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FLib_Example.modulemap"; sourceTree = "<group>"; };
 		83A972CAE19290F8F021469450FC7BFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88B8177407FB389F049211401A26549A /* Pods_FLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88B8177407FB389F049211401A26549A /* Pods_FLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLib_Example.framework; path = "Pods-FLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		976B4E78292BA0CA9B0E953DC917D54F /* Pods-FLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		9B4A16BCBF64088BC4F0CB2205ECD364 /* Pods-FLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9F9CB8C72DF54874A10DA0223AF04335 /* FLib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FLib.swift; sourceTree = "<group>"; };
 		A1AEBFB2951BC9674310EF547D7ABDA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A37A28423577C99A2CB5435E06F913A5 /* Pods-FLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		AA2EC139382C471D3311408656B51F7E /* Pods-FLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		BE58E4551A92FE8020E8374102577DA3 /* FLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLib.xcconfig; sourceTree = "<group>"; };
 		BE99C99915F16CFCD76C43924ACAF8C6 /* Pods-FLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C3E0734EFD204283A677ED20C40DD544 /* FLib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FLib.swift; sourceTree = "<group>"; };
 		C47F84822FF08AF05071BEF176CCDBF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DA254AAB3DB2D08C12BE56BE298A3567 /* FLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FLib.modulemap; sourceTree = "<group>"; };
+		DA254AAB3DB2D08C12BE56BE298A3567 /* FLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FLib.modulemap; sourceTree = "<group>"; };
 		DD6ECB51AD64E87DDF59EBF379C254A4 /* Pods-FLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E7813154D9933B68068F5A235E34BAF5 /* Pods-FLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E81DBA2D2583DE3BAC4C159A3E8741FB /* FLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81DBA2D2583DE3BAC4C159A3E8741FB /* FLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLib.framework; path = FLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88B7BA9F463EBCCCAF5D2BD6BBD8631 /* FLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLib-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,11 +110,12 @@
 			path = "Target Support Files/Pods-FLib_Tests";
 			sourceTree = "<group>";
 		};
-		01D15C16299C496FAC19DB9B6AE9240F /* Classes */ = {
+		206A480883B6EE133D71105023155685 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C3E0734EFD204283A677ED20C40DD544 /* FLib.swift */,
+				9F9CB8C72DF54874A10DA0223AF04335 /* FLib.swift */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -208,8 +209,9 @@
 		F4093780DB395D8B0012476842AF7CCB /* FLib */ = {
 			isa = PBXGroup;
 			children = (
-				01D15C16299C496FAC19DB9B6AE9240F /* Classes */,
+				206A480883B6EE133D71105023155685 /* Classes */,
 			);
+			name = FLib;
 			path = FLib;
 			sourceTree = "<group>";
 		};
@@ -291,7 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACCA4BCC8964A52B372D0805CF55430C /* Build configuration list for PBXNativeTarget "FLib" */;
 			buildPhases = (
-				E3FDCD5262F226995672E01F8B83F9BA /* Sources */,
+				053BAF7BBFD8915439BEC1431319F797 /* Sources */,
 				6CB5C88273FC762A64BA4387065C386C /* Frameworks */,
 				D8BF5155D36B250F50ACB54B65E693D7 /* Headers */,
 			);
@@ -333,6 +335,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		053BAF7BBFD8915439BEC1431319F797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BC0E9DD09F16DE1564A55EEEEC4D4F /* FLib-dummy.m in Sources */,
+				1A872B17ABCFF5052A55664C2C108546 /* FLib.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0F5B408E694F5EBDA451F83028FE230F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,15 +360,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3FDCD5262F226995672E01F8B83F9BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8E29CC44A53B83D725476D6E44CBE6BA /* FLib-dummy.m in Sources */,
-				9760BF2A90215EE594910400AC5F3AE1 /* FLib.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -370,11 +372,49 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07FD92546A787E9945EDCF9511D1A24B /* Release */ = {
+		08A097E5B3B5BF81EA2097E48B7603AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BDAFDE13F21E40610F85BB7E5D4F721 /* Pods-FLib_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLib_Example/Pods-FLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		388F16E2EAF8CC4D1824289BD126F2E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 17BEF81DE4A0F054C5F52F784D51FA2D /* Pods-FLib_Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -403,108 +443,13 @@
 			};
 			name = Release;
 		};
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		35B3A3569BC75F9E8B8C684F1C103B63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE58E4551A92FE8020E8374102577DA3 /* FLib.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FLib/FLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FLib/FLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4DC3EEB829EF1611FF6E1F70100B524F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE58E4551A92FE8020E8374102577DA3 /* FLib.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FLib/FLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FLib/FLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		725762809DF29B5F9BDB3E3F812DBA47 /* Release */ = {
+		5BB0FE74037CA87D517645CD409A35CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE99C99915F16CFCD76C43924ACAF8C6 /* Pods-FLib_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -533,7 +478,38 @@
 			};
 			name = Release;
 		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+		75FAFCC818373C5CBE6496692FE18943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE58E4551A92FE8020E8374102577DA3 /* FLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLib/FLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLib/FLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -551,6 +527,47 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -570,16 +587,51 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D4A8589C3C178D1D9CDD0BC9705E4D0B /* Debug */ = {
+		EA3F3841F5D94344FA5152E656FBAA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE58E4551A92FE8020E8374102577DA3 /* FLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLib/FLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLib/FLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8C6348A2F3C161A4BFAAC8B7D982F19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5291DF80625BC8F9184A5FE65F95AA23 /* Pods-FLib_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -608,48 +660,14 @@
 			};
 			name = Debug;
 		};
-		EBB72FEDD3915695BEBABBB0DE9D2354 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BDAFDE13F21E40610F85BB7E5D4F721 /* Pods-FLib_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FLib_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FLib_Example/Pods-FLib_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FLib_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -657,8 +675,8 @@
 		8BC94F76289D3F81581342BF82D90E55 /* Build configuration list for PBXNativeTarget "Pods-FLib_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4A8589C3C178D1D9CDD0BC9705E4D0B /* Debug */,
-				725762809DF29B5F9BDB3E3F812DBA47 /* Release */,
+				F8C6348A2F3C161A4BFAAC8B7D982F19 /* Debug */,
+				5BB0FE74037CA87D517645CD409A35CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -666,8 +684,8 @@
 		ACCA4BCC8964A52B372D0805CF55430C /* Build configuration list for PBXNativeTarget "FLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35B3A3569BC75F9E8B8C684F1C103B63 /* Debug */,
-				4DC3EEB829EF1611FF6E1F70100B524F /* Release */,
+				EA3F3841F5D94344FA5152E656FBAA1F /* Debug */,
+				75FAFCC818373C5CBE6496692FE18943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -675,8 +693,8 @@
 		C8C2CCFB0E19228F587275806695B9C1 /* Build configuration list for PBXNativeTarget "Pods-FLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBB72FEDD3915695BEBABBB0DE9D2354 /* Debug */,
-				07FD92546A787E9945EDCF9511D1A24B /* Release */,
+				08A097E5B3B5BF81EA2097E48B7603AA /* Debug */,
+				388F16E2EAF8CC4D1824289BD126F2E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
