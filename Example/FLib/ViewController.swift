@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import FLib
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        "uho".hoge()
+        let l = BlinkingLabel.init(frame: CGRect.init(x: 100, y: 100, width: 100, height: 100))
+        l.text = "hogegeee"
+        self.view.addSubview(l)
+        l.startBlinking()
+        let m = Monster(name: "huga")
+        print(m.description())
     }
 
     override func didReceiveMemoryWarning() {

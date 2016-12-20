@@ -1,0 +1,6 @@
+framework module FLib {
+  umbrella header "FLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

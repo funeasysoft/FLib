@@ -1,0 +1,16 @@
+PODS:
+  - FLib (0.1.0)
+
+DEPENDENCIES:
+  - FLib (from `../`)
+
+EXTERNAL SOURCES:
+  FLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FLib: 4131c35179dacebb123424c87d3dce8c547163ba
+
+PODFILE CHECKSUM: 27ec4abbfd8b785312d171eabd3bd4c60fef574e
+
+COCOAPODS: 1.0.0
